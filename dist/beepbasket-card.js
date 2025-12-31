@@ -73,9 +73,9 @@ class BeepBasketCard extends HTMLElement {
   async _loadModules() {
     if (!window.BeepBasketTable) {
       await Promise.all([
-        this._loadScript('./beepbasket-camera.js'),
-        this._loadScript('./beepbasket-table.js'),
-        this._loadScript('./beepbasket-ui.js'),
+        this._loadScript('/hacsfiles/beepbasket-card/beepbasket-camera.js'),
+        this._loadScript('/hacsfiles/beepbasket-card/beepbasket-table.js'),
+        this._loadScript('/hacsfiles/beepbasket-card/beepbasket-ui.js'),
       ]);
     }
   }
