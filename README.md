@@ -11,7 +11,7 @@
 
 ## Usage
 ```
-type: custom:beepbasket-card
+type: "custom:beepbasket-card"
 ```
 
 ## Screenshots
@@ -40,3 +40,8 @@ Directly edit unknown items
 Scan directly from your device
 
 ![BeepBasket Camera](screenshots/camera.png)
+
+
+## Project details
+
+https://hackaday.io/project/204783-beepbasket
