@@ -37,7 +37,7 @@ Directly edit unknown items
 
 ### Camera support
 
-Scan directly from your device
+Scan directly from your device. You do need HTTPS for your camera to scan. 
 
 ![BeepBasket Camera](screenshots/camera.png)
 
@@ -45,3 +45,7 @@ Scan directly from your device
 ## Project details
 
 https://hackaday.io/project/204783-beepbasket
+
+## Credits
+
+- https://github.com/zxing/zxing for the Camera barcode scanner library
